@@ -1,15 +1,8 @@
-## 🎮 Using with Foundry VTT
+## 🎮 Installing Foundry VTT
 
-### 1. Build and Install the Module
+### 1. Install the Module
 
 ```bash
-# Build the Foundry module
-pnpm --filter @waystone/foundry-module build
-
-# Package the module
-cd apps/foundry-module
-pnpm package
-
 # Install in Foundry
 # Copy waystone-bridge.zip to your Foundry Data/modules/ directory
 # Or install via manifest URL (see docs/foundry-setup.md)
